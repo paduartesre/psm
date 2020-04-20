@@ -95,8 +95,6 @@ ALTER TABLE psm.cpu
 -- CREATE TABLE DISK TO ANALYZE DISK IN SERVERS --
 ------------------------------------------------------
 
--- Table: psm.disk
-
 DROP TABLE psm.disk;
 
 CREATE TABLE psm.disk
