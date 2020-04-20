@@ -69,7 +69,7 @@ ALTER TABLE psm.name_application
 
 	
 --------------------------------------------------------------------
--- CREATE TABLE BOX-CPU PARA psmAMENTOS DOS PROCESSADORES DAS VMS --
+-- CREATE TABLE CPU PARA psmAMENTOS DOS PROCESSADORES DAS VMS --
 --------------------------------------------------------------------
 
 DROP TABLE psm.cpu;
@@ -92,7 +92,7 @@ ALTER TABLE psm.cpu
 
 
 ------------------------------------------------------
--- CREATE TABLE BOX-DISK TO ANALYZE DISK IN SERVERS --
+-- CREATE TABLE DISK TO ANALYZE DISK IN SERVERS --
 ------------------------------------------------------
 
 -- Table: psm.disk
@@ -118,7 +118,7 @@ ALTER TABLE psm.disk
 	
 	
 ----------------------------------------------------------
--- CREATE TABLE BOX-MEMORY TO ANALYZE MEMORY IN SERVERS --
+-- CREATE TABLE MEMORY TO ANALYZE MEMORY IN SERVERS --
 ----------------------------------------------------------
 
 DROP TABLE psm.memory;
