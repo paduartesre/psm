@@ -1,5 +1,5 @@
 #!/bin/bash
-dir_sh=/opt/scripts/PSM
+dir_sh=/var/PSM
 rm -f *.csv parser*.txt mem*.txt
 free -t -m / > mem.txt
 grep -m2 "" < mem.txt > memo.txt
